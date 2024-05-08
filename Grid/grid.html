@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Grid</title>
+    <style>
+        #container{
+            width: 800px;
+            height: auto;
+            border: 5px solid rgb(0, 0, 0);
+            display: grid;
+            grid-template-columns: 100px 100px 100px;
+            column-gap  : 20px;
+        }
+        #container>div{
+            border: 2px solid rgb(255, 7, 255);
+        }
+    </style>
+</head>
+<body>
+    <!-- for width column ,For height Row -->
+    <div id="container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+    </div>
+</body>
+</html>

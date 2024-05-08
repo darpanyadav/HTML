@@ -1,0 +1,17 @@
+CSS POSITION PROPERTY
+
+static ------ by defult you can't mention top bottam left right property
+
+
+realtive ------- current window k according top left right bottom position set kar skte h
+top left right bottom property we used
+gap maintained
+
+
+absolute --------- for overlapping - current parent or closest position (mark absolute) k
+according position top left right bottom set kar sakte h 
+top left right bottom property we used
+
+fixed -------- according window
+
+sticky --------- according current parent or closest position

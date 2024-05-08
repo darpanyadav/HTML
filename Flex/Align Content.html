@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Align Content</title>
+    <style>
+        .box{
+            display: flex;
+            padding: 10px;
+            width: 350px;
+            font-size: 5px;
+            height: 800px;
+            flex-wrap: wrap;
+            background-color: rgb(0, 0, 0);
+            /* align-content: center; */
+            align-content: space-between;
+            /* align-content: stretch ; */
+            /* align-content: flex-start; */
+            /* align-content: flex-end; */
+            /* align-content: baseline; */
+            /* align-content: space-around; */
+        }
+        .box>div {
+            margin: 5px;
+            padding: 30px;
+            font-size: 30px;
+        }
+
+        .box > div:nth-child(1) {
+            background-color:teal;
+        }
+
+        .box > div:nth-child(2) {
+            background-color: orange;
+        }
+
+        .box > div:nth-child(3) {
+            background-color: rgb(255, 0, 106);
+        }
+        
+        .box > div:nth-child(4) {
+            background-color: rgb(96, 76, 212);
+        }
+        
+        .box > div:nth-child(5) {
+            background-color: rgb(203, 212, 76);
+        }
+        
+        .box > div:nth-child(6) {
+            background-color: rgb(76, 212, 92);
+        }
+        
+        .box > div:nth-child(7) {
+            background-color: rgb(212, 76, 76);
+        }
+        
+        .box > div:nth-child(8) {
+            background-color: rgb(76, 212, 123);
+        }
+        
+        .box > div:nth-child(9) {
+            background-color: rgb(106, 22, 171);
+        }
+        
+        .box > div:nth-child(10) {
+            background-color: rgb(76, 212, 139);
+        }
+        
+        .box > div:nth-child(11) {
+            background-color: rgb(212, 76, 176);
+        }
+        
+        .box > div:nth-child(12) {
+            background-color: rgb(76, 76, 212);
+        }
+        
+        .box > div:nth-child(13) {
+            background-color: rgb(76, 212, 210);
+        }
+        
+        .box > div:nth-child(14) {
+            background-color: rgb(212, 76, 76);
+        }
+        
+        .box > div:nth-child(15) {
+            background-color: rgb(87, 212, 76);
+        }
+        
+        .box > div:nth-child(16) {
+            background-color: rgb(76, 212, 110);
+        }
+        
+        .box > div:nth-child(17) {
+            background-color: rgb(29, 136, 189);
+        }
+        
+        .box > div:nth-child(18) {
+            background-color: rgb(18, 18, 104);
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+        <div>11</div>
+        <div>12</div>
+        <div>13</div>
+        <div>14</div>
+        <div>15</div>
+        <div>16</div>
+        <div>17</div>
+        <div>18</div>
+    </div>
+</body>
+</html>

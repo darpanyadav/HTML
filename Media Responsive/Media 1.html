@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+            div{
+            background-color: pink;
+            border: 10px solid rgb(0, 4, 255);
+            border-radius: 30px;
+            height: 200px;
+            width: 200px;
+            }
+            
+            @media all and (min-width: 1024px) {
+            div{
+            background-color: rgb(143, 8, 143);
+            border: 10px solid rgb(132, 132, 255);
+            border-radius: 50px;
+            height: 500px;
+            width: 500px;
+            }
+        } 
+
+        @media all and (min-width: 768px) and (max-width: 1024px){
+            div{
+            background-color: rgb(90, 90, 187);
+            border: 10px solid rgb(0, 0, 0);
+            border-radius: 50px;
+            height: 300px;
+            width: 300px;
+            }
+        }
+
+         @media all and (min-width: 320px) and (max-width: 767px){
+            div{
+            background-color: rgb(39, 190, 97);
+            border: 10px solid rgb(0, 4, 255);
+            border-radius: 50px;
+            height: 100px;
+            width: 100px;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>

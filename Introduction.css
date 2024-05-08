@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(248, 44, 44);
+}
+h1{
+    color: white;
+    background-color: red;
+    font-size: 70px;
+    text-align: center;
+}
+
+h3{
+    color: rgb(13, 4, 134);
+    background-color: rgb(255, 115, 0);
+    font-size: 30px;
+}
+
+p{
+    color: rgb(255, 0, 255);
+    background-color: black;
+    font-size: 28;
+}
+a{
+    background-color: red;
+    color: black;
+    align-self: center;
+}
+
+hr{
+    color: gray;
+    background-color: gray;
+}
